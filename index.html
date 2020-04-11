@@ -19,23 +19,23 @@
                 var h = prompt("Enter Height in m");
                 var b = w/(h*h);
                 if(b<16){
-                    alert("Severely Thin");
+                    alert(b+" - "+"Severely Thin");
                 }
                 else if(b>=16 && b<18.5)
                 {
-                    alert("Thin");
+                    alert(b+" - "+"Thin");
                 }
                 else if(b>=18.5 && b<25)
                 {
-                    alert("Healthy");
+                    alert(b+" - "+"Healthy");
                 }
                 else if(b>=25 && b<30)
                 {
-                    alert("Overweight");
+                    alert(b+" - "+"Overweight");
                 }
                 else if(b>=30)
                 {
-                    alert("Obese");
+                    alert(b+" - "+"Obese");
                 }
             }
             function Zodiac(){
